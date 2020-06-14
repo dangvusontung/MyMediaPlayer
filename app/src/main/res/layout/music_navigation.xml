@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        style="@style/Button"
+        android:id="@+id/shuffle"
+        android:src="@drawable/ic_shuffle"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    
+    <ImageButton
+        style="@style/Button"
+        android:id="@+id/back"
+        android:src="@drawable/ic_chevron_left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        style="@style/Button"
+        android:id="@+id/playPause"
+        android:src="@drawable/ic_play"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        style="@style/Button"
+        android:id="@+id/next"
+        android:src="@drawable/ic_chevron_right"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        style="@style/Button"
+        android:id="@+id/changePlayMode"
+        android:src="@drawable/ic_repeat"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    
+
+</LinearLayout>
