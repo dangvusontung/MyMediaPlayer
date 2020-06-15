@@ -40,7 +40,6 @@ class MusicViewHolder(private val binding: MusicListItemBinding) :
         container.setOnClickListener { listener.onMusicItemSelected(music) }
     }
 
-
 }
 
 interface OnMusicItemSelected {
